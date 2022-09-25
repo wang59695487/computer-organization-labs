@@ -1,0 +1,3 @@
+sch2hdl,-sympath,C:/Users/TLT3620/Downloads/OExp07-Datapath/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,C:/Users/TLT3620/Downloads/OExp07-Datapath/SCPU.vf,-w,C:/Users/TLT3620/Downloads/OExp07-Datapath/SCPU.sch
+sch2hdl,-sympath,C:/Users/TLT3620/Downloads/OExp07-Datapath/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,C:/Users/TLT3620/Downloads/OExp07-Datapath/Top_Simple_CPU_App.vf,-w,C:/Users/TLT3620/Downloads/OExp07-Datapath/Top_Simple_CPU_App.sch
+sch2hdl,-sympath,C:/Users/TLT3620/Downloads/OExp07-Datapath/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,C:/Users/TLT3620/Downloads/OExp07-Datapath/SCPU.vf,-w,C:/Users/TLT3620/Downloads/OExp07-Datapath/SCPU.sch

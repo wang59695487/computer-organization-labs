@@ -1,0 +1,2 @@
+vhdtdtfi -lib work E:/OExp07_CPUMore/MUX4T1_32.v -lang verilog -prj OExp07-SCPUMore -o MUX4T1_32.spl -module MUX4T1_32 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 MUX4T1_32.spl E:/OExp07_CPUMore/MUX4T1_32.sym 

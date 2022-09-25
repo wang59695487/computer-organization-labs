@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/ise files/OExp05-Datapath/SCPU_SCPU_sch_tb_isim_beh.exe" -prj "D:/ise files/OExp05-Datapath/SCPU_SCPU_sch_tb_beh.prj" "work.SCPU_SCPU_sch_tb" "work.glbl" 

@@ -1,0 +1,30 @@
+xst -intstyle ise -ifn "D:/ise files/OExp05-Datapath/Top_Simple_CPU_App.xst" -ofn "D:/ise files/OExp05-Datapath/Top_Simple_CPU_App.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc N3_single_circle_cpu.ucf -p xc7k160t-ffg676-2L "Top_Simple_CPU_App.ngc" Top_Simple_CPU_App.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_Simple_CPU_App_map.ncd Top_Simple_CPU_App.ngd Top_Simple_CPU_App.pcf 
+par -w -intstyle ise -ol high -mt off Top_Simple_CPU_App_map.ncd Top_Simple_CPU_App.ncd Top_Simple_CPU_App.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top_Simple_CPU_App.twx Top_Simple_CPU_App.ncd -o Top_Simple_CPU_App.twr Top_Simple_CPU_App.pcf -ucf N3_single_circle_cpu.ucf 
+bitgen -intstyle ise -f Top_Simple_CPU_App.ut Top_Simple_CPU_App.ncd 
+sch2hdl -sympath {D:/ise files/OExp05-Datapath/ipcore_dir} -intstyle ise -family kintex7 -verilog Top_Simple_CPU_App_drc.vf -w {D:/ise files/OExp05-Datapath/Top_Simple_CPU_App.sch} 
+xst -intstyle ise -ifn "D:/ise files/OExp05-Datapath/Top_Simple_CPU_App.xst" -ofn "D:/ise files/OExp05-Datapath/Top_Simple_CPU_App.syr" 
+xst -intstyle ise -ifn "D:/ise files/OExp05-Datapath/Top_Simple_CPU_App.xst" -ofn "D:/ise files/OExp05-Datapath/Top_Simple_CPU_App.syr" 
+xst -intstyle ise -ifn "D:/ise files/OExp05-Datapath/Top_Simple_CPU_App.xst" -ofn "D:/ise files/OExp05-Datapath/Top_Simple_CPU_App.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc N3_single_circle_cpu.ucf -p xc7k160t-ffg676-2L "Top_Simple_CPU_App.ngc" Top_Simple_CPU_App.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_Simple_CPU_App_map.ncd Top_Simple_CPU_App.ngd Top_Simple_CPU_App.pcf 
+par -w -intstyle ise -ol high -mt off Top_Simple_CPU_App_map.ncd Top_Simple_CPU_App.ncd Top_Simple_CPU_App.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top_Simple_CPU_App.twx Top_Simple_CPU_App.ncd -o Top_Simple_CPU_App.twr Top_Simple_CPU_App.pcf -ucf N3_single_circle_cpu.ucf 
+bitgen -intstyle ise -f Top_Simple_CPU_App.ut Top_Simple_CPU_App.ncd 
+xst -intstyle ise -ifn "C:/Users/TLT3620/Downloads/OExp07-Datapath/Top_Simple_CPU_App.xst" -ofn "C:/Users/TLT3620/Downloads/OExp07-Datapath/Top_Simple_CPU_App.syr" 
+xst -intstyle ise -ifn "C:/Users/TLT3620/Downloads/OExp07-Datapath/Top_Simple_CPU_App.xst" -ofn "C:/Users/TLT3620/Downloads/OExp07-Datapath/Top_Simple_CPU_App.syr" 
+xst -intstyle ise -ifn "C:/Users/TLT3620/Downloads/OExp07-Datapath/Top_Simple_CPU_App.xst" -ofn "C:/Users/TLT3620/Downloads/OExp07-Datapath/Top_Simple_CPU_App.syr" 
+xst -intstyle ise -ifn "C:/Users/TLT3620/Downloads/OExp07-Datapath/Top_Simple_CPU_App.xst" -ofn "C:/Users/TLT3620/Downloads/OExp07-Datapath/Top_Simple_CPU_App.syr" 
+xst -intstyle ise -ifn "C:/Users/TLT3620/Downloads/OExp07-Datapath/Top_Simple_CPU_App.xst" -ofn "C:/Users/TLT3620/Downloads/OExp07-Datapath/Top_Simple_CPU_App.syr" 
+xst -intstyle ise -ifn "C:/Users/TLT3620/Downloads/OExp07-Datapath/Top_Simple_CPU_App.xst" -ofn "C:/Users/TLT3620/Downloads/OExp07-Datapath/Top_Simple_CPU_App.syr" 
+xst -intstyle ise -ifn "C:/Users/TLT3620/Downloads/OExp07-Datapath/Top_Simple_CPU_App.xst" -ofn "C:/Users/TLT3620/Downloads/OExp07-Datapath/Top_Simple_CPU_App.syr" 
+xst -intstyle ise -ifn "C:/Users/TLT3620/Downloads/OExp07-Datapath/Top_Simple_CPU_App.xst" -ofn "C:/Users/TLT3620/Downloads/OExp07-Datapath/Top_Simple_CPU_App.syr" 
+xst -intstyle ise -ifn "C:/Users/TLT3620/Downloads/OExp07-Datapath/Top_Simple_CPU_App.xst" -ofn "C:/Users/TLT3620/Downloads/OExp07-Datapath/Top_Simple_CPU_App.syr" 
+xst -intstyle ise -ifn "C:/Users/TLT3620/Downloads/OExp07-Datapath/Top_Simple_CPU_App.xst" -ofn "C:/Users/TLT3620/Downloads/OExp07-Datapath/Top_Simple_CPU_App.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc N3_single_circle_cpu.ucf -p xc7k160t-ffg676-2L Top_Simple_CPU_App.ngc Top_Simple_CPU_App.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Top_Simple_CPU_App_map.ncd Top_Simple_CPU_App.ngd Top_Simple_CPU_App.pcf 
+par -w -intstyle ise -ol high -mt off Top_Simple_CPU_App_map.ncd Top_Simple_CPU_App.ncd Top_Simple_CPU_App.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Top_Simple_CPU_App.twx Top_Simple_CPU_App.ncd -o Top_Simple_CPU_App.twr Top_Simple_CPU_App.pcf -ucf N3_single_circle_cpu.ucf 
+bitgen -intstyle ise -f Top_Simple_CPU_App.ut Top_Simple_CPU_App.ncd 

@@ -1,0 +1,16 @@
+ISim log file
+Running: Y:\Desktop\Lab9-12\program\new\OExp12new\mcpu_test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb Y:/Desktop/Lab9-12/program/new/OExp12new/mcpu_test_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING:  For instance uut/RegDstMux/, width 5 of formal port I2 is not equal to width 32 of actual constant.
+WARNING: File "//Mac/Home/Desktop/Lab9-12/program/new/OExp12new/MCPU_v1.v" Line 70.  For instance uut/RegDstMux/, width 5 of formal port o is not equal to width 32 of actual signal RegDstMux_o.
+WARNING: File "//Mac/Home/Desktop/Lab9-12/program/new/OExp12new/MCPU_v1.v" Line 70.  For instance uut/registerFiles/, width 5 of formal port reg_Wt_addr is not equal to width 32 of actual signal RegDstMux_o.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 1.00us
+# run 1.00us
+# run 1.00us

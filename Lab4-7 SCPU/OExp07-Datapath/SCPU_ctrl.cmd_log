@@ -1,0 +1,2 @@
+vhdtdtfi -lib work {D:/ise files/OExp05-Datapath/SCPU_ctrl.v} -lang verilog -prj OExp05-Datapath -o SCPU_ctrl.spl -module SCPU_ctrl -template D:/ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 SCPU_ctrl.spl {D:/ise files/OExp05-Datapath/SCPU_ctrl.sym} 

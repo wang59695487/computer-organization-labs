@@ -1,0 +1,1 @@
+sch2hdl,-sympath,D:/Xilinx_Project/OExp01_MUX/ngc,-sympath,D:/Xilinx_Project/OExp01_MUX/ipcore_dir,-intstyle,ise,-family,kintex7,-verilog,D:/Xilinx_Project/OExp01_MUX/lab1_Top.vf,-w,D:/Xilinx_Project/OExp01_MUX/lab1_Top.sch

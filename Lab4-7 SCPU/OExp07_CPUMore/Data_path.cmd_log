@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family kintex7 -refsym Data_path E:/OExp07_CPUMore/Data_path.sch E:/OExp07_CPUMore/Data_path.sym 

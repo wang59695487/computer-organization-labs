@@ -1,0 +1,7 @@
+sch2sym -intstyle ise -family kintex7 -refsym Data_path {D:/ise files/OExp05-Datapath/Data_path.sch} {D:/ise files/OExp05-Datapath/Data_path.sym} 
+sch2sym -intstyle ise -family kintex7 -refsym Data_path {D:/ise files/OExp05-Datapath/Data_path.sch} {D:/ise files/OExp05-Datapath/Data_path.sym} 
+sch2hdl -sympath F:/org/OExp07-Datapath/ipcore_dir -intstyle ise -family kintex7 -verilog Data_path_drc.vf -w F:/org/OExp07-Datapath/Data_path.sch 
+sch2sym -intstyle ise -family kintex7 -refsym Data_path Y:/Desktop/Lab-SCPU/OExp07-Datapath/Data_path.sch Y:/Desktop/Lab-SCPU/OExp07-Datapath/Data_path.sym 
+sch2hdl -sympath Y:/Desktop/Lab-SCPU/OExp07-Datapath/ipcore_dir -intstyle ise -family kintex7 -verilog Data_path_drc.vf -w Y:/Desktop/Lab-SCPU/OExp07-Datapath/Data_path.sch 
+sch2sym -intstyle ise -family kintex7 -refsym Data_path Y:/Desktop/Lab-SCPU/OExp07-Datapath/Data_path.sch Y:/Desktop/Lab-SCPU/OExp07-Datapath/Data_path.sym 
+sch2sym -intstyle ise -family kintex7 -w -refsym Data_path Y:/Desktop/Lab-SCPU/OExp07-Datapath/Data_path.sch Y:/Desktop/Lab-SCPU/OExp07-Datapath/Data_path.sym 

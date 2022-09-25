@@ -1,0 +1,3 @@
+verilog work "codes/MDPath_IO.v"
+verilog work "codes/MCtrl_IO.v"
+verilog work "codes/MCPU.v"

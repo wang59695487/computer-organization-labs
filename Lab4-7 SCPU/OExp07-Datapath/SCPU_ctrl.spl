@@ -1,0 +1,19 @@
+[Inputs]
+MIO_ready
+zero
+=OPcode[5:0]=
+=Fun[5:0]=
+[Outputs]
+RegDst
+ALUSrc_B
+Jal
+RegWrite
+mem_w
+CPU_MIO
+=DatatoReg[1:0]=
+=Branch[1:0]=
+=ALU_Control[2:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel SCPU_ctrl
+

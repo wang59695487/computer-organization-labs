@@ -1,0 +1,214 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : lab1_Top.vf
+// /___/   /\     Timestamp : 04/18/2018 08:00:32
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath D:/Xilinx_Project/OExp01_MUX/ngc -sympath D:/Xilinx_Project/OExp01_MUX/ipcore_dir -intstyle ise -family kintex7 -verilog D:/Xilinx_Project/OExp01_MUX/lab1_Top.vf -w D:/Xilinx_Project/OExp01_MUX/lab1_Top.sch
+//Design Name: lab1_Top
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module lab1_Top(BTN_y, 
+                clk_100mhz, 
+                RSTN, 
+                SW, 
+                AN, 
+                BTN_x, 
+                Buzzer, 
+                CR, 
+                LED, 
+                led_clk, 
+                led_clrn, 
+                LED_PEN, 
+                led_sout, 
+                RDY, 
+                readn, 
+                SEGMENT, 
+                seg_clk, 
+                seg_clrn, 
+                SEG_PEN, 
+                seg_sout);
+
+    input [3:0] BTN_y;
+    input clk_100mhz;
+    input RSTN;
+    input [15:0] SW;
+   output [3:0] AN;
+   output [4:0] BTN_x;
+   output Buzzer;
+   output CR;
+   output [7:0] LED;
+   output led_clk;
+   output led_clrn;
+   output LED_PEN;
+   output led_sout;
+   output RDY;
+   output readn;
+   output [7:0] SEGMENT;
+   output seg_clk;
+   output seg_clrn;
+   output SEG_PEN;
+   output seg_sout;
+   
+   wire [3:0] BTN_OK;
+   wire N0;
+   wire [15:0] SW_OK;
+   wire V5;
+   wire XLXN_10;
+   wire [0:0] XLXN_17;
+   wire [31:0] XLXN_18;
+   wire XLXN_20;
+   wire XLXN_23;
+   wire [4:0] XLXN_27;
+   wire [3:0] XLXN_31;
+   wire [7:0] XLXN_32;
+   wire XLXN_33;
+   wire XLXN_34;
+   wire XLXN_35;
+   wire XLXN_36;
+   wire [31:0] XLXN_37;
+   wire [31:0] XLXN_52;
+   wire [31:0] XLXN_53;
+   wire [31:0] XLXN_54;
+   wire [7:0] XLXN_55;
+   wire [7:0] XLXN_56;
+   wire XLXN_58;
+   wire [31:0] XLXN_86;
+   wire [2:0] XLXN_88;
+   wire XLXN_89;
+   wire XLXN_90;
+   wire [31:0] XLXN_91;
+   wire [7:0] XLXN_93;
+   wire [7:0] XLXN_94;
+   wire XLXN_105;
+   wire XLXN_121;
+   wire [31:0] XLXN_122;
+   wire [9:0] XLXN_124;
+   wire [31:0] XLXN_127;
+   wire XLXN_128;
+   wire [63:0] XLXN_132;
+   wire [63:0] XLXN_133;
+   wire [31:0] XLXN_134;
+   wire [31:0] XLXN_135;
+   wire [31:0] XLXN_136;
+   wire [31:0] XLXN_137;
+   wire XLXN_138;
+   wire XLXN_139;
+   wire XLXN_140;
+   wire XLXN_141;
+   wire XLXN_142;
+   wire XLXN_143;
+   wire RDY_DUMMY;
+   wire readn_DUMMY;
+   
+   assign RDY = RDY_DUMMY;
+   assign readn = readn_DUMMY;
+   SEnter_2_32  M4 (.BTN(BTN_OK[2:0]), 
+                   .clk(clk_100mhz), 
+                   .Ctrl({SW_OK[7:5], SW_OK[15], SW_OK[0]}), 
+                   .Din(XLXN_27[4:0]), 
+                   .D_ready(RDY_DUMMY), 
+                   .Ai(XLXN_52[31:0]), 
+                   .Bi(XLXN_53[31:0]), 
+                   .blink(XLXN_32[7:0]), 
+                   .readn(readn_DUMMY));
+   ROM_D  U2 (.a(XLXN_124[9:0]), 
+             .spo(XLXN_122[31:0]));
+   RAM_B  U3 (.addra(XLXN_124[9:0]), 
+             .clka(XLXN_20), 
+             .dina(XLXN_122[31:0]), 
+             .wea(XLXN_17[0]), 
+             .douta(XLXN_18[31:0]));
+   Multi_8CH32  U5 (.clk(clk_100mhz), 
+                   .Data0(XLXN_52[31:0]), 
+                   .data1(XLXN_53[31:0]), 
+                   .data2(XLXN_134[31:0]), 
+                   .data3(XLXN_135[31:0]), 
+                   .data4(XLXN_136[31:0]), 
+                   .data5(XLXN_137[31:0]), 
+                   .data6(XLXN_122[31:0]), 
+                   .data7(XLXN_18[31:0]), 
+                   .EN(XLXN_58), 
+                   .LES(XLXN_133[63:0]), 
+                   .point_in(XLXN_132[63:0]), 
+                   .rst(XLXN_10), 
+                   .Test(SW_OK[7:5]), 
+                   .Disp_num(XLXN_54[31:0]), 
+                   .LE_out(XLXN_56[7:0]), 
+                   .point_out(XLXN_55[7:0]));
+   SSeg7_Dev  U6 (.clk(clk_100mhz), 
+                 .flash(XLXN_143), 
+                 .Hexs(XLXN_54[31:0]), 
+                 .LES(XLXN_56[7:0]), 
+                 .point(XLXN_55[7:0]), 
+                 .rst(XLXN_140), 
+                 .Start(XLXN_141), 
+                 .SW0(XLXN_142), 
+                 .seg_clk(seg_clk), 
+                 .seg_clrn(seg_clrn), 
+                 .SEG_PEN(SEG_PEN), 
+                 .seg_sout(seg_sout));
+   SPIO  U7 (.clk(XLXN_33), 
+            .EN(XLXN_35), 
+            .P_Data(XLXN_37[31:0]), 
+            .rst(XLXN_34), 
+            .Start(XLXN_36), 
+            .counter_set(), 
+            .GPIOf0(), 
+            .led_clk(led_clk), 
+            .led_clrn(led_clrn), 
+            .LED_out(), 
+            .LED_PEN(LED_PEN), 
+            .led_sout(led_sout));
+   clk_div  U8 (.clk(clk_100mhz), 
+               .rst(XLXN_10), 
+               .SW2(XLXN_23), 
+               .clkdiv(XLXN_127[31:0]), 
+               .Clk_CPU(XLXN_128));
+   SAnti_jitter  U9 (.clk(clk_100mhz), 
+                    .Key_y(BTN_y[3:0]), 
+                    .readn(readn_DUMMY), 
+                    .RSTN(RSTN), 
+                    .SW(SW[15:0]), 
+                    .BTN_OK(BTN_OK[3:0]), 
+                    .CR(CR), 
+                    .Key_out(XLXN_27[4:0]), 
+                    .Key_ready(RDY_DUMMY), 
+                    .Key_x(BTN_x[4:0]), 
+                    .pulse_out(XLXN_31[3:0]), 
+                    .rst(XLXN_10), 
+                    .SW_OK(SW_OK[15:0]));
+   Seg7_Dev  U61 (.flash(XLXN_90), 
+                 .Hexs(XLXN_91[31:0]), 
+                 .LES(XLXN_94[7:0]), 
+                 .point(XLXN_93[7:0]), 
+                 .Scan(XLXN_88[2:0]), 
+                 .SW0(XLXN_89), 
+                 .AN(AN[3:0]), 
+                 .SEGMENT(SEGMENT[7:0]));
+   PIO  U71 (.clk(XLXN_121), 
+            .EN(XLXN_139), 
+            .PData_in(XLXN_86[31:0]), 
+            .rst(XLXN_138), 
+            .counter_set(), 
+            .GPIOf0(), 
+            .LED_out(LED[7:0]));
+   INV  XLXI_1 (.I(clk_100mhz), 
+               .O(XLXN_20));
+   VCC  XLXI_3 (.P(V5));
+   INV  XLXI_6 (.I(XLXN_105), 
+               .O(Buzzer));
+   GND  XLXI_7 (.G(N0));
+endmodule

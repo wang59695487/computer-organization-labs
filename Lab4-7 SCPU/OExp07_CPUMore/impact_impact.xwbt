@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=F:\ise_lab_2019\OExp05-Datapath\impact.xsl
+OUTFILE=F:\ise_lab_2019\OExp05-Datapath\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=F:\ise_lab_2019\OExp05-Datapath
+LICENSE=iMPACT
+USER_INFO=iMPACT

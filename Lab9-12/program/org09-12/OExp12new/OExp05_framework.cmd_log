@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "Y:/Desktop/Lab9-12/program/new/OExp12new/OExp05_framework.xst" -ofn "Y:/Desktop/Lab9-12/program/new/OExp12new/OExp05_framework.syr" 

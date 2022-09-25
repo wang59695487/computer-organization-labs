@@ -1,0 +1,4 @@
+verilog work "MUX_8T1.v"
+verilog work "Multi_8CH32.v"
+verilog work "Multi_8CH32_sim.v"
+verilog work "E:/ise14.7/14.7/14.7/ISE_DS/ISE//verilog/src/glbl.v"

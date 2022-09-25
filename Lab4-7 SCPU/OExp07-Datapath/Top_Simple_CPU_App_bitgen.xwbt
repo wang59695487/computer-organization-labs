@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\TLT3620\Downloads\OExp07-Datapath\Top_Simple_CPU_App.ncd
+OUTFILE=C:\Users\TLT3620\Downloads\OExp07-Datapath\Top_Simple_CPU_App.bit
+FAMILY=Kintex7
+PART=xc7k160t-2lffg676
+WORKINGDIR=C:\Users\TLT3620\Downloads\OExp07-Datapath
+LICENSE=WebPack
+USER_INFO=__0_0_0

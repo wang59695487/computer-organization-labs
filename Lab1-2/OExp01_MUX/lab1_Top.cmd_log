@@ -1,0 +1,37 @@
+xst -intstyle ise -ifn "D:/Xilinx_Project/OExp01_MUX/lab1_Top.xst" -ofn "D:/Xilinx_Project/OExp01_MUX/lab1_Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ngc -sd ipcore_dir -nt timestamp -uc ngc/ok.ucf -p xc7k160t-fbg676-2L lab1_Top.ngc lab1_Top.ngd  
+map -intstyle ise -p xc7k160t-fbg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab1_Top_map.ncd lab1_Top.ngd lab1_Top.pcf 
+par -w -intstyle ise -ol high -mt off lab1_Top_map.ncd lab1_Top.ncd lab1_Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml lab1_Top.twx lab1_Top.ncd -o lab1_Top.twr lab1_Top.pcf 
+xst -intstyle ise -ifn "D:/Xilinx_Project/OExp01_MUX/lab1_Top.xst" -ofn "D:/Xilinx_Project/OExp01_MUX/lab1_Top.syr" 
+xst -intstyle ise -ifn "D:/Xilinx_Project/OExp01_MUX/lab1_Top.xst" -ofn "D:/Xilinx_Project/OExp01_MUX/lab1_Top.syr" 
+xst -intstyle ise -ifn "D:/Xilinx_Project/OExp01_MUX/lab1_Top.xst" -ofn "D:/Xilinx_Project/OExp01_MUX/lab1_Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ngc -sd ipcore_dir -nt timestamp -uc ngc/ok.ucf -p xc7k160t-fbg676-2L lab1_Top.ngc lab1_Top.ngd  
+map -intstyle ise -p xc7k160t-fbg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab1_Top_map.ncd lab1_Top.ngd lab1_Top.pcf 
+par -w -intstyle ise -ol high -mt off lab1_Top_map.ncd lab1_Top.ncd lab1_Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml lab1_Top.twx lab1_Top.ncd -o lab1_Top.twr lab1_Top.pcf 
+bitgen -intstyle ise -f lab1_Top.ut lab1_Top.ncd 
+bitgen -intstyle ise -f lab1_Top.ut lab1_Top.ncd 
+xst -intstyle ise -ifn "D:/Xilinx_Project/OExp01_MUX/lab1_Top.xst" -ofn "D:/Xilinx_Project/OExp01_MUX/lab1_Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ngc -sd ipcore_dir -nt timestamp -uc ngc/ok.ucf -p xc7k160t-fbg676-2L lab1_Top.ngc lab1_Top.ngd  
+map -intstyle ise -p xc7k160t-fbg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab1_Top_map.ncd lab1_Top.ngd lab1_Top.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ngc -sd ipcore_dir -nt timestamp -uc ngc/ok.ucf -p xc7k160t-fbg676-2L lab1_Top.ngc lab1_Top.ngd  
+map -intstyle ise -p xc7k160t-fbg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab1_Top_map.ncd lab1_Top.ngd lab1_Top.pcf 
+xst -intstyle ise -ifn "D:/Xilinx_Project/OExp01_MUX/lab1_Top.xst" -ofn "D:/Xilinx_Project/OExp01_MUX/lab1_Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ngc -sd ipcore_dir -nt timestamp -uc ngc/ok.ucf -p xc7k160t-fbg676-2L lab1_Top.ngc lab1_Top.ngd  
+map -intstyle ise -p xc7k160t-fbg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab1_Top_map.ncd lab1_Top.ngd lab1_Top.pcf 
+par -w -intstyle ise -ol high -mt off lab1_Top_map.ncd lab1_Top.ncd lab1_Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml lab1_Top.twx lab1_Top.ncd -o lab1_Top.twr lab1_Top.pcf 
+bitgen -intstyle ise -f lab1_Top.ut lab1_Top.ncd 
+xst -intstyle ise -ifn "E:/OExp01_MUX/lab1_Top.xst" -ofn "E:/OExp01_MUX/lab1_Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ngc -sd ipcore_dir -nt timestamp -uc ngc/ok.ucf -p xc7k160t-fbg676-2L lab1_Top.ngc lab1_Top.ngd  
+map -intstyle ise -p xc7k160t-fbg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab1_Top_map.ncd lab1_Top.ngd lab1_Top.pcf 
+par -w -intstyle ise -ol high -mt off lab1_Top_map.ncd lab1_Top.ncd lab1_Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml lab1_Top.twx lab1_Top.ncd -o lab1_Top.twr lab1_Top.pcf 
+bitgen -intstyle ise -f lab1_Top.ut lab1_Top.ncd 
+xst -intstyle ise -ifn "E:/OExp01_MUX/lab1_Top.xst" -ofn "E:/OExp01_MUX/lab1_Top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ngc -sd ipcore_dir -nt timestamp -uc ngc/ok.ucf -p xc7k160t-fbg676-2L lab1_Top.ngc lab1_Top.ngd  
+map -intstyle ise -p xc7k160t-fbg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o lab1_Top_map.ncd lab1_Top.ngd lab1_Top.pcf 
+par -w -intstyle ise -ol high -mt off lab1_Top_map.ncd lab1_Top.ncd lab1_Top.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml lab1_Top.twx lab1_Top.ncd -o lab1_Top.twr lab1_Top.pcf 
+bitgen -intstyle ise -f lab1_Top.ut lab1_Top.ncd 

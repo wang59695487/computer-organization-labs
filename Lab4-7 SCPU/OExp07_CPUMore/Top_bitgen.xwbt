@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\msi1\Desktop\jizu\OExp07_CPUMore\Top.ncd
+OUTFILE=C:\Users\msi1\Desktop\jizu\OExp07_CPUMore\Top.bit
+FAMILY=Kintex7
+PART=xc7k160t-2lffg676
+WORKINGDIR=C:\Users\msi1\Desktop\jizu\OExp07_CPUMore
+LICENSE=WebPack
+USER_INFO=__0_0_0

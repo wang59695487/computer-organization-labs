@@ -1,0 +1,2 @@
+vhdtdtfi -lib work E:/OExp07_CPUMore/SCPU_ctrl.v -lang verilog -prj OExp07-SCPUMore -o SCPU_ctrl.spl -module SCPU_ctrl -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 SCPU_ctrl.spl E:/OExp07_CPUMore/SCPU_ctrl.sym 

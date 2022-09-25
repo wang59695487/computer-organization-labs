@@ -1,0 +1,3 @@
+vhdtdtfi -lib work D:/Xilinx_Project/OExp01_MUX/ngc/Multi_8CH32_IO.v -lang verilog -prj OExp01_MUX -o Multi_8CH32.spl -module Multi_8CH32 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Multi_8CH32.spl D:/Xilinx_Project/OExp01_MUX/Multi_8CH32.sym 
+vhdtdtfi -lang verilog -prj OExp01_MUX -o D:/Xilinx_Project/OExp01_MUX/Multi_8CH32.tfi -lib work D:/Xilinx_Project/OExp01_MUX/ngc//Multi_8CH32_IO.v -module Multi_8CH32 -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

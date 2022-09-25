@@ -1,0 +1,1 @@
+sch2hdl -sympath {D:/ise files/OExp05-Datapath/ipcore_dir} -intstyle ise -family kintex7 -verilog alu_drc.vf -w {D:/ise files/OExp05-Datapath/alu.sch} 
